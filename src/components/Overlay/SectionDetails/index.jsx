@@ -107,7 +107,7 @@ const SectionDetails = () => {
                   >
                     Next <HiOutlineArrowRight />
                   </button>
-                  <a
+                  {/* <a
                     onMouseEnter={() => updateCursorType("hover")}
                     onMouseLeave={() => updateCursorType("pointer")}
                     target="_blank"
@@ -115,7 +115,7 @@ const SectionDetails = () => {
                     href="https://github.com/silversuite"
                   >
                     github repo <HiOutlineArrowRight />
-                  </a>
+                  </a> */}
                 </motion.div>
               </motion.div>
             );

@@ -4,20 +4,20 @@ const teamData = [
     name: "Danney",
     image: "/images/danney-min.jpg",
     links: [
-      { title: "linkedin", link: "https://silver-suite.vercel.app/" },
-      { title: "github", link: "https://silver-suite.vercel.app/" },
-      { title: "twitter", link: "https://silver-suite.vercel.app/" },
-      { title: "portfolio", link: "https://silver-suite.vercel.app/" },
+      { title: "linkedin", link: "https://silver-suite-portfolio-1.vercel.app/" },
+      { title: "github", link: "https://silver-suite-portfolio-1.vercel.app/" },
+      { title: "twitter", link: "https://silver-suite-portfolio-1.vercel.app/" },
+      { title: "portfolio", link: "https://silver-suite-portfolio-1.vercel.app/" },
     ],
   },
   {
     name: "Sean",
     image: "/images/sean-min.jpg",
     links: [
-      { title: "linkedin", link: "https://silver-suite.vercel.app/" },
-      { title: "github", link: "https://silver-suite.vercel.app/" },
-      { title: "twitter", link: "https://silver-suite.vercel.app/" },
-      { title: "portfolio", link: "https://silver-suite.vercel.app/" },
+      { title: "linkedin", link: "https://silver-suite-portfolio-1.vercel.app/" },
+      { title: "github", link: "https://silver-suite-portfolio-1.vercel.app/" },
+      { title: "twitter", link: "https://silver-suite-portfolio-1.vercel.app/" },
+      { title: "portfolio", link: "https://silver-suite-portfolio-1.vercel.app/" },
     ],
   },
   {

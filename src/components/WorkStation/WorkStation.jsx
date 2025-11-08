@@ -22,7 +22,7 @@ export function WorkStation() {
             className={activeTab === 1 ? "active" : ""}
           >
             Danney
-            <a target="_blank" href="https://silver-suite.vercel.app/">
+            <a target="_blank" href="https://silver-suite-portfolio-1.vercel.app/">
               <MdOutlineOpenInNew />
             </a>
           </button>
@@ -69,13 +69,13 @@ export function WorkStation() {
   const getIframeSource = () => {
     switch (activeTab) {
       case 1:
-        return "https://silver-suite.vercel.app/design/";
+        return "https://silver-suite-portfolio-1.vercel.app/";
       case 2:
-        return "https://seantai.dev/";
+        return "https://silver-suite-portfolio-1.vercel.app/";
       case 3:
-        return "https://jane-moroz-dev.netlify.app/";
+        return "https://silver-suite-portfolio-1.vercel.app/";
       default:
-        return "https://silver-suite.vercel.app/design/";
+        return "https://silver-suite-portfolio-1.vercel.app/";
     }
   };
 

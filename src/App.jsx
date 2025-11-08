@@ -45,8 +45,8 @@ export default function App({ ready }) {
 
       if (nextStop < 2.1 || !nextStop) {
         updateActiveNav("about");
-      } else if (nextStop < 6.7) {
-        updateActiveNav("team");
+      // } else if (nextStop < 6.7) {
+      //   updateActiveNav("team");
       } else if (nextStop < 7.8) {
         updateActiveNav("stack");
       } else if (nextStop < 9) {

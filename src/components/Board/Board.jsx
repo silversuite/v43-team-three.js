@@ -1,5 +1,6 @@
 import { Html, useGLTF } from "@react-three/drei";
 import { editable as e } from "@theatre/r3f";
+import "./style.css";
 
 function Board(props) {
   const boardModel = useGLTF("/models/board/board.glb");
@@ -21,16 +22,16 @@ function Board(props) {
           rotation-y={Math.PI}
         >
           <div className="board">
-            <p className="board-title">Our Stacks:</p>
+            <p className="board-title">My Stacks:</p>
             <ul className="board-list">
               <li>React</li>
-              <li>React-fiber</li>
-              <li>Fiber-drei</li>
-              <li>Threatre</li>
-              <li>Framer-motion</li>
-              <li>Zustand</li>
-              <li>Leva</li>
-              <li>Vite</li>
+              <li>React-native</li>
+              <li>Mobile</li>
+              <li>Three.js</li>
+              <li>Vue.js</li>
+              <li>Angular.js</li>
+              <li>Laravel</li>
+              <li>Node.js</li>
             </ul>
           </div>
         </Html>
